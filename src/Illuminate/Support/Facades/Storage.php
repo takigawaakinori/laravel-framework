@@ -77,7 +77,7 @@ use Illuminate\Filesystem\Filesystem;
  * @method static mixed macroCall(string $method, array $parameters)
  * @method static bool has(string $location)
  * @method static string read(string $location)
- * @method static \League\Flysystem\DirectoryListing<\League\Flysystem\StorageAttributes> listContents(string $location, bool $deep = false)
+ * @method static \League\Flysystem\DirectoryListing listContents(string $location, bool $deep = false)
  * @method static int fileSize(string $path)
  * @method static string visibility(string $path)
  * @method static void write(string $location, string $contents, array $config = [])
